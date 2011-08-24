@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MultiTaskManager!</string>
+    <string name="app_name">MultiTaskManager</string>
+    <string name="kill">Fermer</string>
+    <string name="start">Ouvrir</string>
+    <string name="noapp">Pas d\'application lancée en tache de fond</string>
+    <string name="error_open">Cette application ne peut être démarrée depuis MultiTaskManager</string>
+    <string name="killall">Fermer toutes les apps</string>
+    <string name="killclick">Cliquer pour fermer</string>
+</resources>

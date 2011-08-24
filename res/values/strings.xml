@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MultiTaskManager!</string>
+    <string name="app_name">MultiTaskManager</string>
+    <string name="kill">Kill</string>
+    <string name="start">Start</string>
+    <string name="noapp">No app running</string>
+    <string name="error_open">Cette application ne peut être démarrée depuis MultiTaskManager</string>
+    <string name="killall">Kill all</string>
+    <string name="killclick">click to kill</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/mainlayout"
+    android:background="@drawable/transparent"> 
+	<ImageView android:id="@+id/imgicon"
+		  android:layout_width="100dip"
+		  android:layout_height="100dip"
+		  android:visibility="invisible" 
+		  android:layout_centerHorizontal="true"
+		  android:layout_marginTop="20dip"/>
+	<TextView android:id="@+id/txticon"
+		  android:layout_width="wrap_content"
+		  android:layout_height="fill_parent"
+		  android:visibility="invisible" 
+		  android:layout_centerHorizontal="true"
+		  android:layout_below="@id/imgicon"/>
+	<Button android:id="@+id/btnkill"
+		  android:layout_width="100dip"
+		  android:layout_height="wrap_content"
+		  android:visibility="invisible"
+		  android:layout_marginTop="200dip"
+		  android:layout_marginLeft="50dip"		  
+		  android:text="@string/kill"/>		  
+ 	<Button android:id="@+id/btnstart"
+		  android:text="@string/start"
+		  android:layout_width="100dip"
+		  android:layout_height="wrap_content"
+		  android:visibility="invisible"
+		  android:layout_marginTop="200dip"
+		  android:layout_marginLeft="150dip"	/>
+
+<HorizontalScrollView android:id="@+id/horizontalScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="70dip"
+    android:layout_marginBottom="30dip"
+    android:layout_alignParentBottom="true"
+    android:background="#F000"
+    >
+    <LinearLayout android:id="@+id/layoutScroll"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center_vertical">
+	</LinearLayout>
+</HorizontalScrollView>
+</RelativeLayout>
